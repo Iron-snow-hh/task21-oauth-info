@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Task21私人采集的 Google Drive 权限、用途、凭据保存和授权撤销说明。">
+  <title>隐私说明 · Task21私人采集</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><nav aria-label="主导航"><a class="brand" href="index.html">Task21私人采集</a><a href="privacy.html" aria-current="page">隐私说明</a></nav></header>
+  <main>
+    <p class="eyebrow">PRIVACY NOTICE · 更新于 2026-10-24</p>
+    <h1>隐私说明</h1>
+    <p class="lead">本说明适用于仅供开发者本人使用的 Task21私人采集，以及介绍该应用的公开说明页面。</p>
+    <section><h2>访问范围与用途</h2><p>应用通过 <code>https://www.googleapis.com/auth/drive.file</code> 权限上传、查询和校验本人任务产生或明确授权给本应用的文件。当前不遍历整个 Drive，不请求 Gmail 权限。</p><p>业务文件保存在本人控制的私有 Google Drive 中，不由本说明网站提供下载或公开分享。</p></section>
+    <section><h2>凭据与安全</h2><p>账号本人在 Google 完成登录与授权。离线授权凭据通过已核验服务器身份的加密连接传送，在开发者管理的服务器上加密保存，并在运行时提供给专用非 root 进程。</p><p>本说明网站及其公开源仓库不保存客户端密钥、授权码、access token 或 refresh token。</p></section>
+    <section><h2>数据处理与保存</h2><p>本应用不出售 Google 用户数据，不将其用于广告定向，也不将业务数据交给说明网站处理。本应用遵守 Google API Services User Data Policy，包括适用的 Limited Use 要求。</p><p>业务文件、回执和短期工作副本由开发者管理。目前没有启用自动清理策略，不承诺自动删除时间。</p></section>
+    <section><h2>撤销授权和删除</h2><p>本人可以在 <a href="https://myaccount.google.com/connections">Google 账号第三方连接设置</a>中撤销授权，并在 Google Drive 中删除文件。撤销授权不会自动删除已经上传的文件。资料删除和服务器凭据移除分别由本人控制。</p></section>
+    <section><h2>说明网站的访问</h2><p>本说明页面不使用登录表单，不添加广告或分析追踪脚本。GitHub Pages 托管方会按其自身政策处理访问技术日志，例如 IP 地址。详情见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p></section>
+    <section><h2>联系与更新</h2><p>应用仅供本人使用，支持联系方式以 Google OAuth 授权页面所列开发者支持邮箱为准。若应用的数据处理方式变化，本说明会同步更新。</p></section>
+    <section id="english" class="english" lang="en"><h2>Privacy notice in English</h2><p>Task21私人采集 is used only by its developer. The application requests only <code>https://www.googleapis.com/auth/drive.file</code> to upload, inspect and verify project-generated files or files explicitly authorized for this application. It does not request full-Drive or Gmail access.</p><p>Files remain in the developer's private Google Drive. Offline credentials are encrypted in transit and at rest on a developer-managed server and provided to a dedicated non-root process at runtime. This informational website and its public repository do not contain OAuth secrets or tokens.</p><p>The application does not sell Google user data or use it for targeted advertising. It complies with the Google API Services User Data Policy, including applicable Limited Use requirements. Files and working copies are managed by the developer; there is no automatic deletion schedule at present.</p><p>The developer can revoke access through Google Account connections and delete files in Google Drive. Revocation does not automatically delete existing files. This website adds no analytics or advertising scripts; GitHub Pages may process technical access logs under its own privacy policy. Support contact information is available on the application's Google OAuth consent screen.</p></section>
+    <p><a href="index.html">← 返回应用说明</a></p>
+  </main>
+  <footer>Task21私人采集 · <a href="index.html">应用说明</a></footer>
+</body>
+</html>
